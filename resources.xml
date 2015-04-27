@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resources>
+    <image name="envireonment_dirt">
+        <image file="Gfx/Environment/dirt.png"/>
+    </image>
+
+    <image name="envireonment_grass">
+        <image file="Gfx/Environment/grass.png"/>
+    </image>
+
+    <image name="envireonment_sand">
+        <image file="Gfx/Envireonment/sand.png"/>
+    </image>
+
+    <sprite name = ""
