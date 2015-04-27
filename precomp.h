@@ -12,7 +12,7 @@
 #include <ClanLib-3.0/ClanLib/sound.h>
 #include <ClanLib-3.0/ClanLib/d3d.h>
 #include <ClanLib-3.0/ClanLib/GL/setup_gl.h>
-#include <ClanLib/gl.h>
+#include <ClanLib-3.0/ClanLib/gl.h>
 #include <cmath>
 
 #endif //CLAN_PRECOMP_H

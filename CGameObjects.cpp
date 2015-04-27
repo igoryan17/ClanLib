@@ -3,3 +3,8 @@
 //
 
 #include "CGameObjects.h"
+
+CGameObjects::CGameObjects(CWorld *world) : mWorld(world)
+{
+
+}

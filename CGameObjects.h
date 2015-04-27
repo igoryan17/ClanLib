@@ -7,18 +7,18 @@
 
 #include "precomp.h"
 
-class World;
+class CWorld;
 
 class CGameObjects {
 public:
-    CGameObjects();
+    CGameObjects(CWorld *world);
 
     virtual void draw();
 
     virtual bool update();
 
 protected:
-    World *mWorld;
+    CWorld *mWorld;
 };
 
 

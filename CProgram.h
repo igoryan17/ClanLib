@@ -7,7 +7,8 @@
 
 #include "precomp.h"
 
-class CProgram {
+class CProgram
+{
 public:
     static int main(const std::vector<std::string> &args);
 };
