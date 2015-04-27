@@ -21,9 +21,9 @@ link_directories(
     ${CLANLIB_LIBRARY_DIRS}
 )
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES CApp.cpp)
 
-add_executable(clan ${SOURCE_FILES} main.cpp main.cpp)
+add_executable(clan ${SOURCE_FILES} CApp.cpp CApp.h precomp.h precomp.cpp CProgram.cpp CProgram.h CGameObjects.cpp CGameObjects.h)
 
 target_link_libraries(clan ${CLANLIB_LIBRARIES}
 )
