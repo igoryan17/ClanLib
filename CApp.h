@@ -9,7 +9,8 @@
 
 
 
-class CApp : public clan::Application {
+class CApp
+{
 public:
     CApp() {}
     virtual int main(const std::vector<std::string> &args);

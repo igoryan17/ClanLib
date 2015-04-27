@@ -11,9 +11,10 @@ int CProgram::main(const std::vector<std::string> &args)
     clan::SetupDisplay setup_display;
     clan::SetupGL  setup_gl;
     clan::SetupSWRender setup_swrender;
-    clan::SetupSound stup_sound;
+    clan::SetupSound setup_sound;
     CApp app;
     int retval = app.main(args);
+    return retval;
 }
 
 clan::Application app(&CProgram::main);
